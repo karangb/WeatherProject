@@ -64,12 +64,9 @@ var WeatherProject = React.createClass({
               main={this.state.forecast.main}
               description={this.state.forecast.description}
               temp={this.state.forecast.temp}/>
-
           </View>
         </Image>
       </View>
-
-
     );
   }
 });
@@ -111,7 +108,7 @@ const styles = StyleSheet.create({
     marginTop: 3
   },
   zipCode: {
-    width: 50,
+    // width: 100,
     height: baseFontSize,
   },
   mainText: {
